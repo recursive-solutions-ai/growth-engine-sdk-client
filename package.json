@@ -1,0 +1,23 @@
+{
+  "name": "@growth-engine/sdk-client",
+  "version": "0.1.7",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "browser": "./index.js",
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "zod": "^3.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0",
+    "zod": "^3.24.0"
+  }
+}
